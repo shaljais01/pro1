@@ -4,6 +4,25 @@ public class User
 {
     private String username;
 
+    public Boolean getStatus() {
+        return status;
+    }
+
+    public void setStatus(Boolean status) {
+        this.status = status;
+    }
+
+    private Boolean status;
+    public String getPhone() {
+        return Phone;
+    }
+
+    public void setPhone(String phone) {
+        Phone = phone;
+    }
+
+    private String Phone;
+
     public String getUsername() {
         return username;
     }
