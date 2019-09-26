@@ -11,35 +11,88 @@
     android:orientation="vertical"
     android:gravity="center"
     >
-<ScrollView
-    android:layout_width=""
-    android:layout_height="">
 
-    <TextView
-        android:id="@+id/textView31"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:textStyle="bold|italic"
-        android:text="Se" />
-
-    <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <Button
-        android:id="@+id/button_confirm"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Confirm" />
 
     <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="match_parent"
-        android:layout_height="191dp"
-        tools:srcCompat="@tools:sample/backgrounds/scenic[5]" />
+        android:id="@+id/imageView2"
+        android:layout_width="285dp"
+        android:layout_height="128dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic[1]" />
 
+    <Button
+        android:id="@+id/button_selectPhoto"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:text="Select Photo" />
 
-       </ScrollView>
+    <EditText
+        android:id="@+id/editText_UserName"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="UserName"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_location"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Location"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_pin"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Pin Code"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_locality"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Locality"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_city"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="City"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_state"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="State"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_phone"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/button_signUp"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:text="Sign Up" />
 
 </LinearLayout>
