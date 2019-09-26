@@ -12,7 +12,6 @@ public class Main2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-        login=findViewById(R.id.Login);
-        signUp=findViewById(R.id.SignUp);
+
     }
 }
